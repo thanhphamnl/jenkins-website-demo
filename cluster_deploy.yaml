@@ -3,7 +3,7 @@ kind: Deployment
 metadata: #Dictionary
   name: myapp1-deployment
 spec: # Dictionary
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: myapp1
