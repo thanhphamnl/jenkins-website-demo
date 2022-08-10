@@ -15,7 +15,7 @@ spec: # Dictionary
     spec:
       containers: # List
         - name: myapp1-container
-          image: hocchogioi/website
+          image: hocchogioi/website:latest
           ports: 
             - containerPort: 80  
 ---  
